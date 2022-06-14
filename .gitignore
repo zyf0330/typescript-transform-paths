@@ -3,7 +3,7 @@
 
 # Built
 *.js.map
-dist
+#dist
 coverage
 package-lock.json
 *.tsbuildinfo

@@ -16,8 +16,7 @@
     "reset": "yarn run clean:all && yarn install",
     "-------------- ": "",
     "prebuild": "rimraf dist",
-    "install:tests": "cd test && yarn install && cd projects/extras && yarn install && cd ../nx && yarn install",
-    "prepare": "yarn run install:tests"
+    "install:tests": "cd test && yarn install && cd projects/extras && yarn install && cd ../nx && yarn install"
   },
   "keywords": [
     "typescript",
